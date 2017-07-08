@@ -1,3 +1,11 @@
 language: ruby
 rvm:
-  - 2.4.1
+- 2.4.1
+deploy:
+  provider: cloudfoundry
+  api: https://api.run.pivotal.io
+  username: hanystudy@gmail.com
+  password:
+    secure: FIh6ZXUt0Pz1G8IWONhmEbz2PeK2naY2qiuB0pwGJ0IkDOJB3s7xCHFIGrJjS0etZd/2DtA2UPgT4N9eCWhSxi8gvJHszXfp/6NRYwYh2NDYYFgaZjh8So2MaZfT9sMQ+NbHVB5xC5NTs0comx04nVghLveC8iV5WWualwkVWuFtRuFRYxXqNw/LiHZGkNkwE6MAI/nFVKFt41hL9lUf18JurzwvntrzPpE4cJT4UaWSkh7cMub0JJq12a1lOqr6D7jkBBJPuLTp/X092bbdB2bUd1zLFhO8Pl2r1tpEM7GYD7UxAnYLV2Bmyh1w/7CEvZjUqZ2NwUqdAMgh1cRzibBzzHMUjJc443wFMq8eQ8r3uDpC++S7DWfTI7FbQuA496ZBGWmJTVncT37bZD69WDVUsuvGTtXjPEFv7QYK0IS25LCGbHwI7DjSIXSY7411pknYT2C6bgGD47mWzbj1NNAiQrPBJz+6bWPcmGJK9YaOBsJv+W7LI7OZxyRreGt9CQwCfmhPjo44FnW7Xj7ocu6ZwHhHwwBgUsyquVITnzgy8WOuwNpKOwc+XLBDGsH2CvINlgt0fh3TpKEZE9Ek5aJkSw985Kz+6G+F1ZAG5V99QAVHYyLE+irF4QnkbkxxMQVCa0Bq8I2mkyRRpI7/c5wutXUL0ssYcXZFG8T1C04=
+  organization: hanystudy-org
+  space: development
