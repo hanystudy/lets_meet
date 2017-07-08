@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @meeting_room.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @meeting_room.description %>
+</p>
+
+<p>
+  <strong>Icon:</strong>
+  <%= image_tag(@meeting_room.icon_url, width: 600) if @meeting_room.icon.present? %>
+</p>
+
+<%= link_to 'Edit', edit_meeting_room_path(@meeting_room) %> |
+<%= link_to 'Back', meeting_rooms_path %>
